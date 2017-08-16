@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FFDE4081F42F63600E434FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE4071F42F63600E434FE /* main.m */; };
+		2FFDE40B1F42F63600E434FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE40A1F42F63600E434FE /* AppDelegate.m */; };
+		2FFDE40E1F42F63600E434FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE40D1F42F63600E434FE /* ViewController.m */; };
+		2FFDE4111F42F63600E434FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDE40F1F42F63600E434FE /* Main.storyboard */; };
+		2FFDE4141F42F63600E434FE /* rili.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE4121F42F63600E434FE /* rili.xcdatamodeld */; };
+		2FFDE4161F42F63600E434FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDE4151F42F63600E434FE /* Assets.xcassets */; };
+		2FFDE4191F42F63600E434FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDE4171F42F63600E434FE /* LaunchScreen.storyboard */; };
+		2FFDE4221F42F79E00E434FE /* MonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE4211F42F79E00E434FE /* MonthView.m */; };
+		2FFDE4261F42FA2B00E434FE /* DayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE4241F42FA2B00E434FE /* DayCell.m */; };
+		2FFDE4271F42FA2B00E434FE /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FFDE4251F42FA2B00E434FE /* DayCell.xib */; };
+		2FFDE42A1F42FCD200E434FE /* NSDate+GFCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE4291F42FCD200E434FE /* NSDate+GFCalendar.m */; };
+		2FFDE4321F42FE1B00E434FE /* Lunar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE42D1F42FE1B00E434FE /* Lunar.m */; };
+		2FFDE4331F42FE1B00E434FE /* LunarSolarConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE42F1F42FE1B00E434FE /* LunarSolarConverter.m */; };
+		2FFDE4341F42FE1B00E434FE /* Solar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDE4311F42FE1B00E434FE /* Solar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FFDE4031F42F63600E434FE /* rili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFDE4071F42F63600E434FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FFDE4091F42F63600E434FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FFDE40A1F42F63600E434FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FFDE40C1F42F63600E434FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FFDE40D1F42F63600E434FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FFDE4101F42F63600E434FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FFDE4131F42F63600E434FE /* rili.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rili.xcdatamodel; sourceTree = "<group>"; };
+		2FFDE4151F42F63600E434FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FFDE4181F42F63600E434FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FFDE41A1F42F63600E434FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFDE4201F42F79E00E434FE /* MonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthView.h; sourceTree = "<group>"; };
+		2FFDE4211F42F79E00E434FE /* MonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthView.m; sourceTree = "<group>"; };
+		2FFDE4231F42FA2B00E434FE /* DayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayCell.h; sourceTree = "<group>"; };
+		2FFDE4241F42FA2B00E434FE /* DayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayCell.m; sourceTree = "<group>"; };
+		2FFDE4251F42FA2B00E434FE /* DayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayCell.xib; sourceTree = "<group>"; };
+		2FFDE4281F42FCD200E434FE /* NSDate+GFCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+GFCalendar.h"; sourceTree = "<group>"; };
+		2FFDE4291F42FCD200E434FE /* NSDate+GFCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GFCalendar.m"; sourceTree = "<group>"; };
+		2FFDE42C1F42FE1B00E434FE /* Lunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lunar.h; sourceTree = "<group>"; };
+		2FFDE42D1F42FE1B00E434FE /* Lunar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lunar.m; sourceTree = "<group>"; };
+		2FFDE42E1F42FE1B00E434FE /* LunarSolarConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarSolarConverter.h; sourceTree = "<group>"; };
+		2FFDE42F1F42FE1B00E434FE /* LunarSolarConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarSolarConverter.m; sourceTree = "<group>"; };
+		2FFDE4301F42FE1B00E434FE /* Solar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solar.h; sourceTree = "<group>"; };
+		2FFDE4311F42FE1B00E434FE /* Solar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Solar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FFDE4001F42F63600E434FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FFDE3FA1F42F63600E434FE = {
+			isa = PBXGroup;
+			children = (
+				2FFDE4051F42F63600E434FE /* rili */,
+				2FFDE4041F42F63600E434FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FFDE4041F42F63600E434FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FFDE4031F42F63600E434FE /* rili.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FFDE4051F42F63600E434FE /* rili */ = {
+			isa = PBXGroup;
+			children = (
+				2FFDE42B1F42FE1B00E434FE /* LunarSolarConverter */,
+				2FFDE4281F42FCD200E434FE /* NSDate+GFCalendar.h */,
+				2FFDE4291F42FCD200E434FE /* NSDate+GFCalendar.m */,
+				2FFDE4091F42F63600E434FE /* AppDelegate.h */,
+				2FFDE40A1F42F63600E434FE /* AppDelegate.m */,
+				2FFDE40C1F42F63600E434FE /* ViewController.h */,
+				2FFDE40D1F42F63600E434FE /* ViewController.m */,
+				2FFDE4201F42F79E00E434FE /* MonthView.h */,
+				2FFDE4211F42F79E00E434FE /* MonthView.m */,
+				2FFDE4231F42FA2B00E434FE /* DayCell.h */,
+				2FFDE4241F42FA2B00E434FE /* DayCell.m */,
+				2FFDE4251F42FA2B00E434FE /* DayCell.xib */,
+				2FFDE40F1F42F63600E434FE /* Main.storyboard */,
+				2FFDE4151F42F63600E434FE /* Assets.xcassets */,
+				2FFDE4171F42F63600E434FE /* LaunchScreen.storyboard */,
+				2FFDE41A1F42F63600E434FE /* Info.plist */,
+				2FFDE4121F42F63600E434FE /* rili.xcdatamodeld */,
+				2FFDE4061F42F63600E434FE /* Supporting Files */,
+			);
+			path = rili;
+			sourceTree = "<group>";
+		};
+		2FFDE4061F42F63600E434FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FFDE4071F42F63600E434FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FFDE42B1F42FE1B00E434FE /* LunarSolarConverter */ = {
+			isa = PBXGroup;
+			children = (
+				2FFDE42C1F42FE1B00E434FE /* Lunar.h */,
+				2FFDE42D1F42FE1B00E434FE /* Lunar.m */,
+				2FFDE42E1F42FE1B00E434FE /* LunarSolarConverter.h */,
+				2FFDE42F1F42FE1B00E434FE /* LunarSolarConverter.m */,
+				2FFDE4301F42FE1B00E434FE /* Solar.h */,
+				2FFDE4311F42FE1B00E434FE /* Solar.m */,
+			);
+			path = LunarSolarConverter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FFDE4021F42F63600E434FE /* rili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FFDE41D1F42F63600E434FE /* Build configuration list for PBXNativeTarget "rili" */;
+			buildPhases = (
+				2FFDE3FF1F42F63600E434FE /* Sources */,
+				2FFDE4001F42F63600E434FE /* Frameworks */,
+				2FFDE4011F42F63600E434FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rili;
+			productName = rili;
+			productReference = 2FFDE4031F42F63600E434FE /* rili.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FFDE3FB1F42F63600E434FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = A589;
+				TargetAttributes = {
+					2FFDE4021F42F63600E434FE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U4LY4RUXVY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FFDE3FE1F42F63600E434FE /* Build configuration list for PBXProject "rili" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FFDE3FA1F42F63600E434FE;
+			productRefGroup = 2FFDE4041F42F63600E434FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FFDE4021F42F63600E434FE /* rili */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FFDE4011F42F63600E434FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFDE4191F42F63600E434FE /* LaunchScreen.storyboard in Resources */,
+				2FFDE4161F42F63600E434FE /* Assets.xcassets in Resources */,
+				2FFDE4271F42FA2B00E434FE /* DayCell.xib in Resources */,
+				2FFDE4111F42F63600E434FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FFDE3FF1F42F63600E434FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFDE4221F42F79E00E434FE /* MonthView.m in Sources */,
+				2FFDE40E1F42F63600E434FE /* ViewController.m in Sources */,
+				2FFDE4261F42FA2B00E434FE /* DayCell.m in Sources */,
+				2FFDE4331F42FE1B00E434FE /* LunarSolarConverter.m in Sources */,
+				2FFDE42A1F42FCD200E434FE /* NSDate+GFCalendar.m in Sources */,
+				2FFDE4341F42FE1B00E434FE /* Solar.m in Sources */,
+				2FFDE4321F42FE1B00E434FE /* Lunar.m in Sources */,
+				2FFDE4141F42F63600E434FE /* rili.xcdatamodeld in Sources */,
+				2FFDE40B1F42F63600E434FE /* AppDelegate.m in Sources */,
+				2FFDE4081F42F63600E434FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FFDE40F1F42F63600E434FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FFDE4101F42F63600E434FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FFDE4171F42F63600E434FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FFDE4181F42F63600E434FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FFDE41B1F42F63600E434FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2FFDE41C1F42F63600E434FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FFDE41E1F42F63600E434FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U4LY4RUXVY;
+				INFOPLIST_FILE = rili/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edoctor.rili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FFDE41F1F42F63600E434FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U4LY4RUXVY;
+				INFOPLIST_FILE = rili/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edoctor.rili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FFDE3FE1F42F63600E434FE /* Build configuration list for PBXProject "rili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFDE41B1F42F63600E434FE /* Debug */,
+				2FFDE41C1F42F63600E434FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FFDE41D1F42F63600E434FE /* Build configuration list for PBXNativeTarget "rili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFDE41E1F42F63600E434FE /* Debug */,
+				2FFDE41F1F42F63600E434FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FFDE4121F42F63600E434FE /* rili.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FFDE4131F42F63600E434FE /* rili.xcdatamodel */,
+			);
+			currentVersion = 2FFDE4131F42F63600E434FE /* rili.xcdatamodel */;
+			path = rili.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FFDE3FB1F42F63600E434FE /* Project object */;
+}
